@@ -1848,7 +1848,9 @@ async function getAniListUserList(username){
 //  Local api-server (same origin, /api path) using aniwatch npm package.
 //  Falls back to external API if local server unavailable.
 // ═══════════════════════════════════════════
-const HIANIME_API = window.location.origin;
+const HIANIME_API = (window.location.origin === 'null' || !window.location.origin)
+  ? 'https://maybe-o4jf.onrender.com'
+  : window.location.origin;
 
 // Allow self-hosted override via Settings → Stream API
 // Returns the active API base URL.
