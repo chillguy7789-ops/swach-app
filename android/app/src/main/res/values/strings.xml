@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Swach</string>
+    <string name="title_activity_main">Swach</string>
+    <string name="package_name">com.yourname.swach</string>
+    <string name="custom_url_scheme">com.yourname.swach</string>
+</resources>
