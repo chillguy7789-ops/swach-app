@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourname.swach",
+  "appName": "Swach",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}

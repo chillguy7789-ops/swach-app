@@ -1,0 +1,9 @@
+{
+  "name": "swach-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@capacitor/core": "^6",
+    "@capacitor/android": "^6",
+    "@capacitor/cli": "^6"
+  }
+}
