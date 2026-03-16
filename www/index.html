@@ -1523,6 +1523,8 @@ function parseRoute(){
 function syncNav(){
   document.querySelectorAll('.nl').forEach(el=>el.classList.toggle('on',el.dataset.r===S.route));
   document.querySelectorAll('.mob-nl[data-r]').forEach(el=>el.classList.toggle('on',el.dataset.r===S.route));
+  const epFab=document.getElementById('ep-fab');
+  if(epFab) epFab.style.display=(S.route==='watch'&&window.innerWidth<=640)?'block':'none';
 }
 
 function render(){
