@@ -3,7 +3,11 @@
   "appName": "Swach",
   "webDir": "www",
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*"
+    ],
+    "cleartext": true
   },
   "android": {
     "backgroundColor": "#000000"
